@@ -1,31 +1,70 @@
-# Vehicle-Detection
+# Getting Started with Create React App
 
-Description:
-This web application allows users to upload images and detect vehicles using a pre-trained model. It provides a user-friendly interface for uploading images, viewing the original and processed images, and displaying the count of detected vehicles.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Download Pre-trained Model:
+## Available Scripts
 
-Download the pre-trained SSD MobileNet V3 Large model (ssd_mobilenet_v3_large_coco.pb) and its associated configuration file (ssd_mobilenet_v3_large_coco.pbtxt) from the TensorFlow Model Zoo.
-Place these files in the models directory of the project
+In the project directory, you can run:
 
-Running the Application:
+### `npm start`
 
-Start the Flask Server:
-Access the Application:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Open a web browser and go to http://localhost:5000 to access the web application.
-Testing the Application:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Upload Images:
+### `npm test`
 
-Click on the "Upload" button to select an image file from your local machine.
-Supported image formats include JPEG, PNG, and GIF.
-View Detection Results:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Once the image is uploaded, the web application will display both the original and processed images.
-The processed image will highlight the detected vehicles and display the count.
-Additional Notes:
+### `npm run build`
 
-Ensure that you have the necessary permissions to download and use the pre-trained model files.
-Make sure to update the file paths in the Flask application (app.py) if you place the model files in a different directory.
-For advanced features or customizations, refer to the Flask and React documentation.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
